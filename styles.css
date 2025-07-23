@@ -33,19 +33,63 @@ h4 {
 .sign-up-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 32px;
 }
 
+.sign-up-action {
+    width: 560px;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.sign-up-container p {
+    color: #e5e7eb;
+}
+
+.sign-up-container button {
+    color: white;
+    background-color: #3882f6;
+    border-radius: 6px;
+    border: none;
+}
+
 img {
-    width: 600px;
+    width: 560px;
     height: auto;
 }
 
-.rounded-img {
-    width: 300px;
-    height: auto;
+.information {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.info-items-container {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.crop {
+    width: 200px;
+    height: 200px;
     overflow: hidden;
-    border-color: #3882f6;
-    border-width: 2px;
-    border-radius: 8px;
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+}
+
+.info-item p {
+    width: 200px;
 }
