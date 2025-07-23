@@ -3,7 +3,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: space-between;
-    background-color: #1f2937;
+    background-color: white;
+    margin: 0;
 }
 
 .header {
@@ -35,6 +36,8 @@ h4 {
     justify-content: center;
     align-items: center;
     gap: 32px;
+    background-color: #1f2937;
+    padding-bottom: 32px;
 }
 
 .sign-up-action {
@@ -64,7 +67,6 @@ img {
 }
 
 .information {
-    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -120,6 +122,44 @@ h3 {
     margin-top: 0;
 }
 
+.call-to-action {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    align-items: center;
+    background-color: #3882f6;
+    width: 1000px;
+    margin: 32px;
+    padding: 16px;
+    border-radius: 16px;
+}
 
+.call-to-action h5 {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin: 0px;
+}
 
+.call-to-action p {
+    font-size: 12px;
+    color: #e5e7eb;
+}
 
+.call-to-action button {
+    background: none;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    color: #e5e7eb;
+    text-align: center;
+    background-color: #1f2937;
+}
