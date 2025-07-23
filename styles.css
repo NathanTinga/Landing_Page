@@ -1,0 +1,51 @@
+body {
+    font-family: 'roboto';
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    align-items: center;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+    padding: 16px;
+}
+
+.header-links {
+    list-style-type: none;
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+}
+
+.sign-up-container {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+img {
+    width: 600px;
+    height: auto;
+}
+
+.rounded-img {
+    width: 300px;
+    height: auto;
+    overflow: hidden;
+    border-color: #3882f6;
+    border-width: 2px;
+    border-radius: 8px;
+}
